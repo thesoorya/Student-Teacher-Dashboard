@@ -5,6 +5,8 @@ import Login from './pages/Auth/Login'
 import StudentDashboard from './pages/StudentDashboard/StudentDashboard'
 import TeacherDashboard from './pages/TeacherDashboard/TeacherDashboard'
 import { Toaster } from 'react-hot-toast'
+import Timetable from './component/TimeTable/TimeTable'
+import CourseGrid from './pages/Courses/Courses'
 
 export const StoreContext = createContext()
 
@@ -21,6 +23,8 @@ const App = () => {
           <Route path='/login' element={<Login />} />
           <Route path='/student-dashboard' element={<StudentDashboard />} />
           <Route path='/teacher-dashboard' element={<TeacherDashboard />} />
+          <Route path='/timetable' element={<Timetable />} />
+          <Route path='/courses' element={<CourseGrid />} />
         </Routes>
         <Toaster />
       </BrowserRouter>

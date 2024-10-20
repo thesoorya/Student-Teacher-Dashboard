@@ -1,0 +1,35 @@
+.student {
+  padding: 2%;
+}
+
+.student-dashboard h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.courses, .announcements, .mentors {
+  margin-bottom: 30px;
+}
+
+.courses ul, .mentors ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.courses li, .mentors li {
+  background-color: #f4f4f4;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.announcements .announcement {
+  background-color: #e7f3ff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.announcements .announcement h3 {
+  margin-top: 0;
+}

@@ -99,7 +99,7 @@ const TeacherDashboard = () => {
 
             <Row>
                 <Col className="text-center">
-                    <h1>Hello, {userName}!</h1>
+                    <h1 className='text-capitalize'>Hello, {userName}!</h1>
                 </Col>
             </Row>
 
